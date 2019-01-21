@@ -2,7 +2,7 @@
 
 ## test01:
 
- webpack 配置文件使用了 raw-loader、HtmlWebpackPlugin
+ webpack 配置文件使用了 raw-loader(文本文件loader)、HtmlWebpackPlugin(自动生成 index.html 插件)
 
 ```javascript
 // webpack.config.js
@@ -17,7 +17,7 @@ module.exports = {
       title: 'a test',
       filename: 'index.html'})]
   ,module: {
-    rules: [ //txt 文件loader
+    rules: [ //txt 文件loader .txt 扩展名的文件，使用raw-loader 加载
       { test: /\.txt$/, use: 'raw-loader' }
     ]
   }
