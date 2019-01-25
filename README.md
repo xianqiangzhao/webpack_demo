@@ -113,3 +113,23 @@ $ cd test04
 $ npm install
 $ npm run dev
 ```
+## test05:
+- 生产环境，开发环境不同的配置文件
+- 利用webpack-merge模块来达到目的
+追加三个配置文件
+  |- webpack.common.js  通用
+  |- webpack.dev.js     开发
+  |- webpack.prod.js    生产
+ 
+
+```bash
+$ cd test05
+$ npm install
+$ npm run dev   //开发环境
+$ npm run build //生产环境
+```
+
+
+
+
+
