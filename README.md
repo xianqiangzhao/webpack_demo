@@ -45,9 +45,9 @@ $ npm run dev
 
 
 ## test02:
- webpack 配置文件 自动生成 index.html index1.html
- entry 有两个入口 ./main1.js ./main2.js
- 另外配置了devServer的端口 9000
+- webpack 配置文件自动生成 index.html index1.html
+- entry 有两个入口 ./main1.js ./main2.js
+- 另外配置了devServer的端口 9000
 
   启动方法
 ```bash
