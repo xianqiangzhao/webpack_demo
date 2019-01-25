@@ -55,3 +55,61 @@ $ cd test02
 $ npm install
 $ npm run dev
 ```
+## test03:
+- 引用jquery
+
+```javascript
+var $ = require('jquery');
+$('h1').text('Hello World');
+
+```
+
+  启动方法
+```bash
+$ cd test03
+$ npm install
+$ npm run dev
+```
+## test04:
+- 使用vue
+
+
+```html
+//src/index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>a vue test</title>
+  </head>
+  <body>
+     <div id="app">
+          <p>{{ hi }}</p>
+        <input v-model="hi">
+    </div>
+  </body>
+ 
+ </html> 
+
+```
+```javascript
+
+const Vue = require('vue');
+
+new Vue({
+    el: '#app',
+    data: { 
+        hi: 'Hello Vue.js!' //会显示到index.html 页面上
+    }
+   });
+
+console.log(Vue);
+```
+
+
+  启动方法
+```bash
+$ cd test04
+$ npm install
+$ npm run dev
+```
