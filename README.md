@@ -138,7 +138,7 @@ vue-cli3 不同于cli2 ，它屏蔽的复杂的webpack配置，是创建项目�
   启动方法
 
 ```bash
-$ cd vue-demo1
+$ cd vue3-demo1
 $ npm install
 $ npm run serve
 ```
@@ -150,7 +150,7 @@ $ npm run serve
   启动方法
   
 ```bash
-$ cd vue2-demo
+$ cd vue2-demo1
 $ npm install
 $ npm run dev
 ```
