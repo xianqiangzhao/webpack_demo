@@ -129,7 +129,7 @@ $ npm run dev   //开发环境
 $ npm run build //生产环境
 ```
 
-## vue-demo1
+## vue3-demo1
 - 利用 vue-cli3 创建的项目
 [vue-cli3 安装方法](https://cli.vuejs.org/zh/guide/installation.html)
 vue-cli3 不同于cli2 ，它屏蔽的复杂的webpack配置，使创建项目变得更加简单，
