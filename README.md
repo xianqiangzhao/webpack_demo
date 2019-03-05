@@ -134,11 +134,11 @@ $ npm run build //生产环境
 [vue-cli3 安装方法](https://cli.vuejs.org/zh/guide/installation.html)
 vue-cli3 不同于cli2 ，它屏蔽的复杂的webpack配置，使创建项目变得更加简单，
 但是最好还是从cli2 开始学起来比较好。
-
+- 利用 vue-router 来实现页面间跳转，首页有link，点击分别显示不同的view
   启动方法
 
 ```bash
-$ cd vue-demo1
+$ cd vue3-demo1
 $ npm install
 $ npm run serve
 ```
@@ -155,7 +155,7 @@ npm i element-ui -S
   启动方法
   
 ```bash
-$ cd vue2-demo
+$ cd vue2-demo1
 $ npm install
 $ npm run dev
 ```
